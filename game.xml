@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Defines the ISO project -->
+<iso_project image_name="DUSTTRUST.bin" cue_sheet="DUSTTRUST.cue" no_xa="0">
+	<!-- Data track -->
+	<track type="data">
+		<!-- Identifiers -->
+		<identifiers
+			system        = "PLAYSTATION"
+			application   = "PLAYSTATION"
+			volume        = "DUSTTRUST"
+			volume_set    = "DUSTTRUST"
+			publisher     = "LUCKY"
+			copyright     = "NICKOLAS"
+		/>
+		<license file="licensea.dat"/>
+		
+		<!-- Data directory tree -->
+		<directory_tree>
+			<!-- System -->
+			<file name = "system.cnf" type = "data" source = "iso/system.cnf"/>
+			<file name = "SCUS_000.00" type = "data" source = "dust.ps-exe"/>
+			
+			<file name = "font.tim" type = "data" source = "iso/font.tim"/>
+			
+			<file name = "battle.arc" type = "data" source = "iso/battle/main.arc"/>
+			<file name = "menu.arc" type = "data" source = "iso/menu/main.arc"/>
+			
+			<dir name = "chars">
+				<file name = "sansph1.tim" type = "data" source = "iso/chars/sansph1.tim"/>
+			</dir>
+
+			<dir name = "music">
+				<file name = "getup.mus" type = "data" source = "iso/music/getup/getup.mus"/>
+				<file name = "phase1.mus" type = "data" source = "iso/music/phase1/phase1.mus"/>
+				<file name = "phase1b.mus" type = "data" source = "iso/music/phase1/phase1battle.mus"/>
+				<file name = "phase2.mus" type = "data" source = "iso/music/phase2/phase2.mus"/>
+			</dir>
+			
+			<dir name = "sounds">
+				<file name = "switch.vag" type = "data" source = "iso/sounds/switch.vag"/>
+				<file name = "select.vag" type = "data" source = "iso/sounds/select.vag"/>
+			</dir>
+
+			<!-- Dummy sectors -->
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+</iso_project>

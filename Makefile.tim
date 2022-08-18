@@ -1,10 +1,17 @@
 all: \
-	iso/font/arial.tim \
-	iso/sprites/dtsans.tim \
-	iso/sprites/battle.tim \
+	iso/menu/main.arc \
+	iso/battle/main.arc \
+	iso/chars/sansph1.tim \
+	iso/font.tim \
 
 iso/%.tim: iso/%.png
 	tools/funkintimconv/funkintimconv $@ $<
 
 iso/%.arc:
 	tools/funkinarcpak/funkinarcpak $@ $^
+
+# Menu Assets
+iso/menu/main.arc: iso/menu/menu0.tim
+
+# Battle Assets
+iso/battle/main.arc: iso/battle/hud0.tim

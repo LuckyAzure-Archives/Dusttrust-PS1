@@ -15,8 +15,10 @@ mips/psyq/
 *.exe
 tools/funkinisopak/funkinisopak
 tools/funkinarcpak/funkinarcpak
-tools/funkinarcpak/funkinmuspak
+tools/funkinchartpak/funkinchartpak
+tools/funkinpicopak/funkinpicopak
 tools/funkintimconv/funkintimconv
+tools/psxavenc/psxavenc
 tools/xainterleave/xainterleave
 
 # Exclude object and link files
@@ -33,7 +35,7 @@ build/
 # Exclude converted assets
 iso/*/*.tim
 iso/*/*.arc
-iso/*/*.mus
-iso/*/*/*.tim
-iso/*/*/*.arc
-iso/*/*/*.mus
+iso/*/*.xa
+iso/*/*.cht
+
+# Big Chungus

@@ -4,7 +4,7 @@
   file, You can obtain one at http://mozilla.org/MPL/2.0/.
 */
 
-#include "../timer.h"
+#include "timer.h"
 
 #define TIMER_BITS (3)
 

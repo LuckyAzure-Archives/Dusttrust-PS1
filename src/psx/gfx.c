@@ -4,11 +4,11 @@
   file, You can obtain one at http://mozilla.org/MPL/2.0/.
 */
 
-#include "../gfx.h"
+#include "gfx.h"
 
-#include "../mem.h"
+#include "mem.h"
 #include "../main.h"
-#include "../mutil.h"
+#include "mutil.h"
 
 //Gfx constants
 #define OTLEN 8
@@ -296,7 +296,7 @@ void Gfx_DrawTex(Gfx_Tex *tex, const RECT *src, const RECT *dst)
 	Gfx_DrawTexCol(tex, src, dst, 0x80, 0x80, 0x80);
 }
 
-void Gfx_DrawTexRotate(Gfx_Tex *tex, const RECT *src, const RECT *dst, u8 angle, u8 hx, u8 hy)
+void Gfx_DrawTexRotate(Gfx_Tex *tex, const RECT *src, const RECT *dst, s16 angle, s16 hx, s16 hy)
 {	
 	s16 sin = MUtil_Sin(angle);
 	s16 cos = MUtil_Cos(angle);

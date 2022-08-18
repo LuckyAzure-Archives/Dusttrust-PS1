@@ -1,20 +1,20 @@
-TARGET = dusttrust
+TARGET = dust
 TYPE = ps-exe
 
 SRCS = src/main.c \
-       src/mutil.c \
-       src/random.c \
-       src/archive.c \
-       src/font.c \
-       src/loadscr.c \
+       src/menu/menu.c \
+       src/battle/battle.c \
+       src/chars/sansph1/sansph1.c \
+       src/psx/mutil.c \
+       src/psx/random.c \
+       src/psx/archive.c \
        src/psx/psx.c \
        src/psx/io.c \
        src/psx/gfx.c \
        src/psx/audio.c \
        src/psx/pad.c \
        src/psx/timer.c \
-       src/battle/battle.c \
-       src/chars/dtsans1.c \
+       src/fonts/font.c \
        mips/common/crt0/crt0.s
 
 CPPFLAGS += -Wall -Wextra -pedantic -mno-check-zero-division
@@ -30,7 +30,7 @@ LDFLAGS += -lds
 LDFLAGS += -letc
 LDFLAGS += -lgpu
 #LDFLAGS += -lgs
-#LDFLAGS += -lgte
+LDFLAGS += -lgte
 #LDFLAGS += -lgun
 #LDFLAGS += -lhmd
 #LDFLAGS += -lmath
