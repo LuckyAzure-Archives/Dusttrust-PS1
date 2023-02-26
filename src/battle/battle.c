@@ -309,7 +309,7 @@ void Battle_Load()
 	battle.camera.tx = 0;
 	battle.camera.ty = 0;
 	battle.camera.tzoom = FIXED_DEC(1,1);
-	battle.camera.speed = FIXED_UNIT / 32;
+	battle.camera.speed = FIXED_DEC(1,100);
 	
 	battle.box.x = 0;
 	battle.box.y = 32;
@@ -319,7 +319,7 @@ void Battle_Load()
 	battle.box.ty = 32;
 	battle.box.txsize = 300;
 	battle.box.tysize = 60;
-	battle.box.speed = FIXED_UNIT / 12;
+	battle.box.speed = FIXED_DEC(1,10);
 	
 	battle.soul.x = 0;
 	battle.soul.y = 0;

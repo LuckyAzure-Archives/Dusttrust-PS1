@@ -1,5 +1,6 @@
 all: \
 	iso/music/getup/getup.mus \
+	iso/music/copy/copy.mus \
 	iso/music/phase1/phase1battle.mus \
 	iso/music/phase1/phase1.mus \
 	iso/music/phase2/phase2.mus \

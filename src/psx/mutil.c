@@ -54,9 +54,8 @@ s16 smooth(u8 x)
 
 fixed_t lerp(fixed_t position, fixed_t target, fixed_t speed)
 {
-	fixed_t d = (target - position) * 100;
-	fixed_t data = (position * 100) + FIXED_MUL(d, speed);
-	return data / 100;
+	fixed_t data = position + FIXED_MUL((target - position),speed);
+	return data;
 }
 
 void MUtil_RotatePoint(POINT *p, s16 s, s16 c)

@@ -34,7 +34,7 @@
 				<file name = "getup.mus" type = "data" source = "iso/music/getup/getup.mus"/>
 				<file name = "phase1.mus" type = "data" source = "iso/music/phase1/phase1.mus"/>
 				<file name = "phase1b.mus" type = "data" source = "iso/music/phase1/phase1battle.mus"/>
-				<file name = "phase2.mus" type = "data" source = "iso/music/phase2/phase2.mus"/>
+				<file name = "test.mus" type = "data" source = "iso/music/test/test.mus"/>
 			</dir>
 			
 			<dir name = "sounds">
