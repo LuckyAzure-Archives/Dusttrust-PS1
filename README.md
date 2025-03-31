@@ -1,17 +1,14 @@
-# Dusttrust-Pre-Leak-PS1
-An unofficial Dusttrust remake on the og PlayStation
+# Dusttrust PS1  
+An unofficial **Dusttrust** remake for the original PlayStation.  
 
-cant say much about this project, just got bored
+This project was initially created as an experiment to implement the engine on the PS1, but it was left unfinished due to heavy hardcoding and limitations in my earlier knowledge. It is more of a modification of **PSXFunkin**, using various files and scripts from the community.  
 
-The files what i used for making this: https://github.com/cuckydev/PSXFunkin
+This project was made back when **Nickolas owned Dusttrust**.  
 
-## Credits
-Dusttrust created by Sawsk
+## Credits  
+- **Dustswap: DUSTTRUST** is owned by **DillyWolf**  
+- **Logo and all the music |** Nickolas
+- **Terrible menu artwork & battle sprite |** Made by me
 
-DustTrust owned by Nickolas, Co-Owned by Ari
-
-Pre-Leak by Ari
-
-Sprite by GOing42
-
-Music by Nickolas https://soundcloud.com/dusttrustpreleak/003a-homicidal-lunacy
+### Tools Used  
+This project utilizes resources from **PSXFunkin**: [GitHub Link](https://github.com/cuckydev/PSXFunkin)  
